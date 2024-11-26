@@ -107,7 +107,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #f9861a;
+  color: #3bb143;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -2139,7 +2139,7 @@ input::-moz-focus-inner {
   height: 6.4rem;
   width: 6.4rem;
   border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(59, 177, 67, 0.5);
   margin: 0;
   position: relative;
 }
@@ -2160,7 +2160,7 @@ input::-moz-focus-inner {
 
 .hero-scroll .scroll-link:hover,
 .hero-scroll .scroll-link:focus {
-  background-color: #f9861a;
+  background-color: #3bb143;
 }
 
 /* -------------------------------------------------------------------
@@ -3323,7 +3323,7 @@ html.no-csstransitions .hero-content {
   height: 6.4rem;
   width: 6.4rem;
   border-radius: 50%;
-  background-color: #000000;
+  background-color: #3bb143;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: relative;
