@@ -87,7 +87,8 @@ html {
 
 html,
 body {
-  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -995,9 +996,14 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #f9861a;
-  border-color: #f9861a;
+  background: #3bb143;
+  border-color: #3bb143;
   color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
 }
 
 .btn.btn--primary:hover,
@@ -1012,6 +1018,26 @@ input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
   background: #000000;
   border-color: #000000;
+}
+
+.image-button {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+}
+
+.image-button img {
+  display: block;
+  width: 370px; /* Sesuaikan ukuran gambar */
+  height: 200p;
+  border-radius: 8px; /* Membuat sudut gambar melengkung */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Memberi efek bayangan */
+  transition: transform 0.2s, box-shadow 0.2s; /* Animasi efek hover */
+}
+
+.image-button img:hover {
+  transform: scale(1.05); /* Memperbesar gambar saat di-hover */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Bayangan lebih tegas */
 }
 
 /* button modifiers
@@ -2414,7 +2440,7 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-bottom: 16rem;
+  /* padding-bottom: 16rem; */
   background-color: #ffffff;
   position: relative;
 }
@@ -2982,7 +3008,7 @@ html.no-csstransitions .hero-content {
 
 @media screen and (max-width: 800px) {
   .s-portfolio {
-    padding-top: 20rem;
+    padding-top: 5rem;
   }
 
   .folio-item__thumb a::after {
@@ -3017,9 +3043,9 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
-  padding-top: 14.4rem;
+  /* padding-top: 14.4rem; */
   padding-bottom: 16rem;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .testimonial-slider {
@@ -3157,7 +3183,7 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .s-cta {
   padding-top: 12rem;
-  background-color: #ffffff;
+  background-color: #000000;
   font-size: 2.2rem;
   line-height: 1.818;
   text-align: center;
