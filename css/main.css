@@ -1028,7 +1028,7 @@ input[type="button"].btn--primary:focus {
 
 .image-button img {
   display: block;
-  width: 370px; /* Sesuaikan ukuran gambar */
+  width: 330px; /* Sesuaikan ukuran gambar */
   height: 200p;
   border-radius: 8px; /* Membuat sudut gambar melengkung */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Memberi efek bayangan */
